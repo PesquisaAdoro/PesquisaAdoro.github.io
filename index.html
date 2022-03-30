@@ -72,8 +72,8 @@ crossorigin="anonymous">
               <!-- Cabeçalho da Tabela de Pesquisa -->
               <thead style="background-color: #2b3474; color: #fff; ">
                 <tr class="text-center">
-                  <th style="width: 60%;">Produto</th>
-                  <th style="width: 40%;">Estoque (qtd cx)</th>
+                  <th style="width: 70%;">Produto</th>
+                  <th style="width: 30%;">Estoque (qtd cx)</th>
                 </tr>
               </thead>
 
@@ -163,32 +163,32 @@ var campoMotivo = document.getElementById('motivo');
 
 campoMotivo.onchange = function() { 
 	
-	var motivo = campoMotivo.value;
-	
-	if(motivo == 'Outros') { /* Se for OUTROS somente o comentário é obrigatório */
-		document.getElementById('comentario').required = true;
+var motivo = campoMotivo.value;
+
+if(motivo == 'Outros') { /* Se for OUTROS somente o comentário é obrigatório */
+    document.getElementById('comentario').required = true;
     document.getElementById('estoque1').required = false;
     document.getElementById('estoque2').required = false;
     document.getElementById('estoque3').required = false;
     document.getElementById('estoque4').required = false;
     document.getElementById('estoque5').required = false;
     document.getElementById('estoque6').required = false;
-	}	else if (motivo == 'Loja OK!') { /* Se for LOJA OK! somente o comentário NÃO é obrigatório */
-		document.getElementById('comentario').required = false;
+}	else if (motivo == 'Loja OK!') { /* Se for LOJA OK! somente o comentário NÃO é obrigatório */
+    document.getElementById('comentario').required = false;
     document.getElementById('estoque1').required = true;
     document.getElementById('estoque2').required = true;
     document.getElementById('estoque3').required = true;
     document.getElementById('estoque4').required = true;
     document.getElementById('estoque5').required = true;
     document.getElementById('estoque6').required = true;
-	} else { /* outro motivo diferente NEM o comentário e NEM a coleta de estoque é obrigatório */
-		document.getElementById('comentario').required = false;
+} else { /* outro motivo diferente NEM o comentário e NEM a coleta de estoque é obrigatório */
+    document.getElementById('comentario').required = false;
     document.getElementById('estoque1').required = false;
     document.getElementById('estoque2').required = false;
     document.getElementById('estoque3').required = false;
     document.getElementById('estoque4').required = false;
     document.getElementById('estoque5').required = false;
     document.getElementById('estoque6').required = false;
-	}
+}
 }
 </script>
