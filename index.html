@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>  
@@ -13,8 +14,6 @@ crossorigin="anonymous">
   <body>
     <div class="container">
       <div class="">
-        
-          <form id="myForm" onsubmit="handleFormSubmit(this)"> 
 
             <!-- Cabeçalho da Página -->
             <nav class="navbar navbar-light" style="background-color: #f7b12f;">
@@ -27,107 +26,24 @@ crossorigin="anonymous">
                 <b style="color: #2b3474;">Pesquisa de Estoque</b>
               </a>
 
-              <!-- Data atual ocultada -->
-              <div class="form-group col-md-3">
-                  <input type="hidden" class="form-control" id="data_atual" name="data_atual">
-              </div>
-
             </nav>
             
             <br>
            
             <div class="form-row">
-
-              <!-- Código da Loja -->
-              <div class="form-group col-md-2">
-                <label for="pdv">Cód. Loja</label>
-                <input type="text" class="form-control" id="pdv" name="pdv" placeholder="000000" onkeypress="$(this).mask('000000', {reverse: true});" required autocomplete="off">
-              </div>
-
-              <!-- Motivo da Execução ou não Execução -->
-              <div class="form-group col-md-3">
-                <label for="motivo">Motivo da Execução</label>
-                <select class="form-control" id="motivo" name="motivo" required>
-                  <option value="">Selecione uma opção</option>
-                  <option value="Loja OK!">Loja OK!</option>
-                  <option value="Permanência em outra loja">Permanência em outra loja</option>
-                  <option value="Alteração do Roteiro">Alteração do Roteiro</option>
-                  <option value="Atestado Médico">Atestado Médico</option>
-                  <option value="Reunião">Reunião</option>
-                  <option value="Outros">Outros</option>
-                </select>
-              </div>
-
-              <!-- Comentário -->
-              <div class="form-group col-md-7">
-                  <label for="comentario">Comentário</label>
-                  <textarea class="form-control" id="comentario" name="comentario" rows="3" cols="" autocomplete="off"></textarea>
-              </div>
+	       
+		<img src="https://www.adoro.com.br/logotipo.png" width="70" class="d-inline-block align-top">
 
             </div>
 
-            <div class="table-responsive">
-            <table class="mx-auto w-auto">
-
-              <!-- Cabeçalho da Tabela de Pesquisa -->
-              <thead style="background-color: #2b3474; color: #fff; ">
-                <tr class="text-center">
-                  <th style="width: 75%;">Produto</th>
-                  <th style="width: 25%;">Estoque (cx)</th>
-                </tr>
-              </thead>
-
-              <tbody>
-
-                <!-- Linha 1 da Tabela da Pesquisa -->
-                <tr>
-                  <td class="text-center">COXINHA MARIN RESF PV</td>
-                  <td><input type="number" id="estoque1" name="estoque1" class="form-control" autocomplete="off" min="0"></td>                  
-                </tr>
-
-                <!-- Linha 2 da Tabela da Pesquisa -->
-                <tr>
-                  <td class="text-center">PASSARINHO MARIN RESFR PV</td>
-                  <td><input type="number" id="estoque2" name="estoque2" class="form-control" autocomplete="off" min="0"></td>                  
-                </tr>
-
-                <!-- Linha 3 da Tabela da Pesquisa -->
-                <tr>
-                  <td class="text-center">1/2 ASA MARIN RESFR PV</td>
-                  <td><input type="number" id="estoque3" name="estoque3" class="form-control" autocomplete="off" min="0"></td>                  
-                </tr>
-
-                <!-- Linha 4 da Tabela da Pesquisa -->
-                <tr>
-                  <td class="text-center">FILE DE COXA C/P CG (PCT)</td>
-                  <td><input type="number" id="estoque4" name="estoque4" class="form-control" autocomplete="off" min="0"></td>                  
-                </tr>
-
-                <!-- Linha 5 da Tabela da Pesquisa -->
-                <tr>
-                  <td class="text-center">FATIADOS CG (TODAS AS GRAMATURAS)</td>
-                  <td><input type="number" id="estoque5" name="estoque5" class="form-control" autocomplete="off" min="0"></td>                  
-                </tr>
-
-                <!-- Linha 6 da Tabela da Pesquisa -->
-                <tr>
-                  <td class="text-center">FILE DE COXA MARIN RESF</td>
-                  <td><input type="number" id="estoque6" name="estoque6" class="form-control" autocomplete="off" min="0"></td>                  
-                </tr>
-                
-              </tbody>  
-            </table>
-            </div>
 
             <br>
             
             <!-- Botão de Envio -->
             <div class="form-group col-md-12">
-               <button type="submit" class="btn btn-success" style="float: right;">Enviar Pesquisa</button>
+               <a href="pesquisa.html" class="btn btn-success" style="float: right;"><i class="fas fa-search"></i></a>
             </div>
-            <br>
-
-          </form><div id="output"></div>            
+            <br>      
 
       </div>
 
@@ -145,50 +61,3 @@ crossorigin="anonymous">
     </div>   
   </body>
 </html>
-
-<!-- Data do Registro (Atual) -->
-<script>
-
-var today = new Date();
-var dy = today.getDate();
-var mt = today.getMonth()+1;
-var yr = today.getFullYear();
-document.getElementById('data_atual').value= dy+"/"+mt+"/"+yr;
-
-</script>
-
-<!-- Preenchimento obrigatório -->
-<script>
-var campoMotivo = document.getElementById('motivo');
-
-campoMotivo.onchange = function() { 
-	
-var motivo = campoMotivo.value;
-
-if(motivo == 'Outros') { /* Se for OUTROS somente o comentário é obrigatório */
-    document.getElementById('comentario').required = true;
-    document.getElementById('estoque1').required = false;
-    document.getElementById('estoque2').required = false;
-    document.getElementById('estoque3').required = false;
-    document.getElementById('estoque4').required = false;
-    document.getElementById('estoque5').required = false;
-    document.getElementById('estoque6').required = false;
-}	else if (motivo == 'Loja OK!') { /* Se for LOJA OK! somente o comentário NÃO é obrigatório */
-    document.getElementById('comentario').required = false;
-    document.getElementById('estoque1').required = true;
-    document.getElementById('estoque2').required = true;
-    document.getElementById('estoque3').required = true;
-    document.getElementById('estoque4').required = true;
-    document.getElementById('estoque5').required = true;
-    document.getElementById('estoque6').required = true;
-} else { /* outro motivo diferente NEM o comentário e NEM a coleta de estoque é obrigatório */
-    document.getElementById('comentario').required = false;
-    document.getElementById('estoque1').required = false;
-    document.getElementById('estoque2').required = false;
-    document.getElementById('estoque3').required = false;
-    document.getElementById('estoque4').required = false;
-    document.getElementById('estoque5').required = false;
-    document.getElementById('estoque6').required = false;
-}
-}
-</script>
