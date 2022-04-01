@@ -1,1 +1,0 @@
-# PesquisaAdoro.github.io
