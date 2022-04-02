@@ -16,6 +16,6 @@ fclose($f);
 echo $idade;
 echo $sexo;*/
 
-echo "<script>window.location='index.php';</script>"
+echo "<script>window.location='index.html';</script>"
 
 ?>
