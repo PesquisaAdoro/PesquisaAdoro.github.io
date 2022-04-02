@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<a href="index.php">Inserir</a>
+<a href="index.html">Inserir</a>
 <br>
 
 <?php
