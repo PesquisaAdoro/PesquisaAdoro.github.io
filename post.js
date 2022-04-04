@@ -165,6 +165,6 @@ function produto6() {
 }
 
 function voltar() {
-    alert("Salvo com sucesso");
+    alert("Salvo com sucesso!");
     window.location.href = "index.html";
 }
