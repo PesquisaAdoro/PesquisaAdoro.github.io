@@ -14,7 +14,7 @@ crossorigin="anonymous">
     <div class="container">
       <div class="">
         
-          <form id="myForm" onsubmit="handleFormSubmit(this)" action="index.html"> 
+          <form id="myForm" action="https://sheetdb.io/api/v1/skn3bch0qzzkz" method="POST"> 
 
             <!-- Cabeçalho da Página -->
             <nav class="navbar navbar-light" style="background-color: #f7b12f;">
@@ -29,7 +29,7 @@ crossorigin="anonymous">
 
               <!-- Data atual ocultada -->
               <div class="form-group col-md-3">
-                  <input type="hidden" class="form-control" id="data_atual" name="data_atual">
+                  <input type="hidden" class="form-control" id="data_atual" name="data[data_atual]">
               </div>
 
             </nav>
@@ -41,7 +41,7 @@ crossorigin="anonymous">
               <!-- Código da Loja -->
               <div class="form-group col-md-2">
                 <label for="pdv">Cód. Loja</label>
-                <input type="text" class="form-control" id="pdv" name="pdv" placeholder="000000" onkeypress="$(this).mask('000000', {reverse: true});" required autocomplete="off">
+                <input type="text" class="form-control" id="pdv" name="data[pdv]" placeholder="000000" onkeypress="$(this).mask('000000', {reverse: true});" required autocomplete="off">
               </div>
 
               <!-- Motivo da Execução ou não Execução -->
