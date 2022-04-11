@@ -61,6 +61,7 @@ crossorigin="anonymous">
                   <option value="Loja OK!">Loja OK!</option>
                   <option value="Permanência em outra loja">Permanência em outra loja</option>
                   <option value="Alteração do Roteiro">Alteração do Roteiro</option>
+		  <option value="Loja novo, código não fornecido">Loja novo, código não fornecido</option>	
                   <option value="Atestado Médico">Atestado Médico</option>
                   <option value="Reunião">Reunião</option>
                   <option value="Outros">Outros</option>
@@ -124,7 +125,7 @@ crossorigin="anonymous">
 
             <br>
 		  
-	    <b style="float: right;"> * 0 = Ruptura <b/>	  
+	    <b style="font-size: 10px; float: right;"> * 0 = Ruptura <b/>	  
 	    <hr>
 
             <div class="form-row">
@@ -189,7 +190,7 @@ if(motivo == 'Outros') { /* Se for OUTROS somente o comentário é obrigatório 
     document.getElementById('estoque4').required = false;
     document.getElementById('estoque5').required = false;
     document.getElementById('estoque6').required = false;
-}	else if (motivo == 'Loja OK!') { /* Se for LOJA OK! somente o comentário NÃO é obrigatório */
+}	else if (motivo == 'Loja OK!' OR 'Loja novo, código não fornecido') { /* Se for LOJA OK! ou Loja novo, código não fornecido somente o comentário NÃO é obrigatório */
     document.getElementById('comentario').required = false;
     document.getElementById('estoque1').required = true;
     document.getElementById('estoque2').required = true;
