@@ -190,7 +190,15 @@ if(motivo == 'Outros') { /* Se for OUTROS somente o comentário é obrigatório 
     document.getElementById('estoque4').required = false;
     document.getElementById('estoque5').required = false;
     document.getElementById('estoque6').required = false;
-}	else if (motivo == 'Loja OK!' OR 'Loja novo, código não fornecido') { /* Se for LOJA OK! ou Loja novo, código não fornecido somente o comentário NÃO é obrigatório */
+} else if (motivo == 'Loja OK!') { /* Se for LOJA OK! somente o comentário NÃO é obrigatório */
+    document.getElementById('comentario').required = false;
+    document.getElementById('estoque1').required = true;
+    document.getElementById('estoque2').required = true;
+    document.getElementById('estoque3').required = true;
+    document.getElementById('estoque4').required = true;
+    document.getElementById('estoque5').required = true;
+    document.getElementById('estoque6').required = true;
+} else if (motivo == 'Loja novo, código não fornecido') { /* Se for Loja novo, código não fornecido somente o comentário NÃO é obrigatório */
     document.getElementById('comentario').required = false;
     document.getElementById('estoque1').required = true;
     document.getElementById('estoque2').required = true;
