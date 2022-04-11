@@ -20,6 +20,7 @@ function produto1() {
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
+    let nome = document.getElementById("nome").value
     let cod_produto = '197769'
     let desc_produto = 'COXINHA MARIN RESF PV'
     let estoque = document.getElementById("estoque1").value
@@ -29,6 +30,7 @@ function produto1() {
     body = {
         "data_atual": data_atual,
         "pdv": pdv,
+        "nome": nome,
         "cod_produto": cod_produto,
         "desc_produto": desc_produto,
         "estoque": estoque,
@@ -45,6 +47,7 @@ function produto2() {
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
+    let nome = document.getElementById("nome").value
     let cod_produto = '197772'
     let desc_produto = 'PASSARINHO MARIN RESFR PV'
     let estoque = document.getElementById("estoque2").value
@@ -54,6 +57,7 @@ function produto2() {
     body = {
         "data_atual": data_atual,
         "pdv": pdv,
+        "nome": nome,
         "cod_produto": cod_produto,
         "desc_produto": desc_produto,
         "estoque": estoque,
@@ -70,6 +74,7 @@ function produto3() {
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
+    let nome = document.getElementById("nome").value
     let cod_produto = '197775'
     let desc_produto = '1/2 ASA MARIN RESFR PV'
     let estoque = document.getElementById("estoque3").value
@@ -79,6 +84,7 @@ function produto3() {
     body = {
         "data_atual": data_atual,
         "pdv": pdv,
+        "nome": nome,
         "cod_produto": cod_produto,
         "desc_produto": desc_produto,
         "estoque": estoque,
@@ -95,6 +101,7 @@ function produto4() {
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
+    let nome = document.getElementById("nome").value
     let cod_produto = '124506'
     let desc_produto = 'FILE DE COXA C/P CG (PCT)'
     let estoque = document.getElementById("estoque4").value
@@ -104,6 +111,7 @@ function produto4() {
     body = {
         "data_atual": data_atual,
         "pdv": pdv,
+        "nome": nome,
         "cod_produto": cod_produto,
         "desc_produto": desc_produto,
         "estoque": estoque,
@@ -120,6 +128,7 @@ function produto5() {
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
+    let nome = document.getElementById("nome").value
     let cod_produto = 'FLFAT010204'
     let desc_produto = 'FATIADOS CG (TODAS AS GRAMATURAS)'
     let estoque = document.getElementById("estoque5").value
@@ -129,6 +138,7 @@ function produto5() {
     body = {
         "data_atual": data_atual,
         "pdv": pdv,
+        "nome": nome,
         "cod_produto": cod_produto,
         "desc_produto": desc_produto,
         "estoque": estoque,
@@ -145,6 +155,7 @@ function produto6() {
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
+    let nome = document.getElementById("nome").value
     let cod_produto = 'FLCX010205'
     let desc_produto = 'FILE DE COXA MARIN RESF'
     let estoque = document.getElementById("estoque6").value
@@ -154,6 +165,7 @@ function produto6() {
     body = {
         "data_atual": data_atual,
         "pdv": pdv,
+        "nome": nome,
         "cod_produto": cod_produto,
         "desc_produto": desc_produto,
         "estoque": estoque,
