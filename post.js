@@ -16,7 +16,7 @@ function fazPost(url, body) {
 
 function produto1() {
     event.preventDefault()
-    let url = "https://sheetdb.io/api/v1/skn3bch0qzzkz"
+    let url = "https://docs.google.com/spreadsheets/d/1u7RBzbB0bZY1c9_xtIjsWAURoRiwVN_PgSewZQrI45Y/edit?usp=sharing"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
