@@ -16,7 +16,7 @@ function fazPost(url, body) {
 
 function produto1() {
     event.preventDefault()
-    let url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTGMQ5K7llVdbQjG6GgIO-ApXOJaxX8d0ef2cKgKU8Iat8ZpbPJKrCEOzGGEry0FVsrEoBrUvgy589d/pubhtml?gid=0&single=true"
+    let url = "https://docs.google.com/spreadsheets/d/1u7RBzbB0bZY1c9_xtIjsWAURoRiwVN_PgSewZQrI45Y/edit#gid=0"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
