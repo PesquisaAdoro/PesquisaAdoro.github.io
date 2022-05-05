@@ -154,34 +154,6 @@ function produto5() {
     fazPost(url, body)
 }
 
-function produto6() {
-    event.preventDefault()
-    //let url = "https://sheetdb.io/api/v1/skn3bch0qzzkz"
-    let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
-
-    let data_atual = document.getElementById("data_atual").value
-    let pdv = document.getElementById("pdv").value
-    let nome = document.getElementById("nome").value
-    let cod_produto = 'FLCX010205'
-    let desc_produto = '-'
-    let estoque = document.getElementById("estoque6").value
-    let motivo = document.getElementById("motivo").value
-    let comentario = document.getElementById("comentario").value
-
-    body = {
-        "data_atual": data_atual,
-        "pdv": pdv,
-        "nome": nome,
-        "cod_produto": cod_produto,
-        "desc_produto": desc_produto,
-        "estoque": estoque,
-        "motivo": motivo,
-        "comentario": comentario
-    }
-
-    fazPost(url, body)    
-}
-
 function voltar() {
     alert("Salvo com sucesso!");
     window.location.href = "index.html";
