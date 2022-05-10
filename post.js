@@ -45,7 +45,7 @@ function produto1() {
 
 function produto2() {
     event.preventDefault()
-    let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
+    //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
@@ -74,7 +74,7 @@ function produto2() {
 
 function produto3() {
     event.preventDefault()
-    let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
+    //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
@@ -103,7 +103,7 @@ function produto3() {
 
 function produto4() {
     event.preventDefault()
-    let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
+    //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
@@ -132,7 +132,7 @@ function produto4() {
 
 function produto5() {
     event.preventDefault()
-    let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
+    //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
