@@ -16,8 +16,9 @@ function fazPost(url, body) {
 
 function produto1() {
     event.preventDefault()
-    let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
+    //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
+    let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -46,6 +47,7 @@ function produto2() {
     event.preventDefault()
     let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
+    let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -74,6 +76,7 @@ function produto3() {
     event.preventDefault()
     let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
+    let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -102,6 +105,7 @@ function produto4() {
     event.preventDefault()
     let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
+    let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -130,6 +134,7 @@ function produto5() {
     event.preventDefault()
     let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
+    let url = "https://api.sheetmonkey.io/form/jTp7m7M8V6RH4bw1wixdPc"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
