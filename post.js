@@ -19,7 +19,7 @@ function produto1() {
     //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     //let url = "https://sheetdb.io/api/v1/1c7nqn9sc0wl2"
-    let url = https://sheetdb.io/api/v1/t62xteujpyd2e
+    let url = "https://sheetdb.io/api/v1/t62xteujpyd2e"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -49,7 +49,7 @@ function produto2() {
     //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     //let url = "https://sheetdb.io/api/v1/1c7nqn9sc0wl2"
-    let url = https://sheetdb.io/api/v1/t62xteujpyd2e
+    let url = "https://sheetdb.io/api/v1/t62xteujpyd2e"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -79,7 +79,7 @@ function produto3() {
     //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     //let url = "https://sheetdb.io/api/v1/1c7nqn9sc0wl2"
-    let url = https://sheetdb.io/api/v1/t62xteujpyd2e
+    let url = "https://sheetdb.io/api/v1/t62xteujpyd2e"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -109,7 +109,7 @@ function produto4() {
     //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     //let url = "https://sheetdb.io/api/v1/1c7nqn9sc0wl2"
-    let url = https://sheetdb.io/api/v1/t62xteujpyd2e
+    let url = "https://sheetdb.io/api/v1/t62xteujpyd2e"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
@@ -139,7 +139,7 @@ function produto5() {
     //let url = "https://sheetdb.io/api/v1/g2qtlyij9wgih"
     //let url = "https://sheetdb.io/api/v1/zupdfe4hb4eu1"
     //let url = "https://sheetdb.io/api/v1/1c7nqn9sc0wl2"
-    let url = https://sheetdb.io/api/v1/t62xteujpyd2e
+    let url = "https://sheetdb.io/api/v1/t62xteujpyd2e"
 
     let data_atual = document.getElementById("data_atual").value
     let pdv = document.getElementById("pdv").value
